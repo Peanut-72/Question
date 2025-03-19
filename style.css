@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    text-align: center; /* Centers inline text */
+    padding: 40px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+
+.cute-image {
+    width: 150px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #3333cc; /* Adjust to match your image */
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    margin: 5px 0;
+    color: black;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffc0cb;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    img {
+        width: 80%; /* Make image smaller on mobile */
+    }
+
+    label {
+        font-size: 16px; /* Increase readability */
+    }
+
+    button {
+        width: 100%; /* Full width button */
+        max-width: 250px;
+    }
+    body {
+        text-align: center; /* Ensure text is centered */
+    }
+
+    form {
+        align-items: center; /* Centers the form content */
+    }
+
+    label {
+        text-align: center; /* Centers label text */
+    }
+    body {
+        padding: 20px 30px; /* More padding on the sides */
+        max-width: 95%; /* Adjusts width for smaller screens */
+    }
+/* General Page Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Image Styling */
+.main-image {
+    max-width: 200px; /* Adjust size */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Heading */
+h2 {
+    font-size: 24px;
+    color: #3333cc; /* Same shade of blue as previous page */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Body Text */
+.body-text {
+    font-size: 16px;
+    color: #000000; /* Same shade of blue */
+    max-width: 400px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+/* Buttons */
+.cta-button {
+    background-color: #ffc0cb; /* Light pink */
+    color: #ffffff; /* Blue text */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-decoration: none; /* Ensure no underline */
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #3333cc; /* Adjust color if needed */
+    font-weight: bold;
+}
+
